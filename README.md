@@ -11,7 +11,9 @@ The following program is an implementation of a client-server system done in C. 
 ```
 ## Running
 ### Server
-`./httpserver <port_number>`
+`./httpserver <port_number> -t <thread_count> -l <log_file>`\
+`Default Thread Count: 4`\
+`Default Log File: stderr`
 ### Client
 You may run the client in several different ways. Two such ways is through **netcat** or **curl**.
 
